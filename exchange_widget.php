@@ -2,7 +2,7 @@
 /*
 Plugin Name: Exchange
 Plugin URI: http://www.naira-wp.com
-Version: The Plugin's Version Number 1.0
+Version: 1.0
 Short description of the plugin: this plugin executes currency convertion. 
 Author: Naira Jorge
 Author URI: http://www.naira-wp.com
@@ -173,7 +173,7 @@ MM_reloadPage(true);
 
 if ($authorcredit) { ?>
 			<p style="font-size:8px;">
-			<span class="Estilo2 Estilo2 Estilo10">created by</span> <a href="http://www.naira-wp.com" title=" naira-wp.com" class="Estilo2 Estilo10">Naira Jorge</a>
+			<span class="Estilo2 Estilo2 Estilo10">created by</span> <a href="http://www.naira-wp.com" title=" My Widget" class="Estilo2 Estilo10">Naira Jorge</a>
 	</p>
 </div>
 </div>
