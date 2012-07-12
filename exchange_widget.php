@@ -232,13 +232,6 @@ echo $after_widget;
  
 }
 
-/*function panel_naira() {
-	include ('./naira-wp.com/HTML/wp-content/plugins/Exchange/cifrao.jpg');
-}*/
-function config_naira() {
-	add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php');
-}
-add_action('admin_menu','config_naira');
 
 // End class soup_widget
 // register exchange_Widget widget
