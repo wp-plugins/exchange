@@ -1,6 +1,6 @@
 ﻿﻿﻿﻿=== Exchange ===
 
-Plugin Name: Exchange
+Plugin Name:  Exchange
 Contributors: Naira Jorge
 Donate link: http://naira-wp.com/wp-content/plugins/Exchange/panel.htm 
 Tags: money, currency, currencies, converter, cotation, exchange;

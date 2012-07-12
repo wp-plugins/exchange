@@ -173,7 +173,7 @@ MM_reloadPage(true);
 
 if ($authorcredit) { ?>
 			<p style="font-size:8px;">
-			<span class="Estilo2 Estilo2 Estilo10">created by</span> <a href="http://www.naira-wp.com" title=" My Widget" class="Estilo2 Estilo10">Naira Jorge</a>
+			<span class="Estilo2 Estilo2 Estilo10">created by</span> <a href="http://www.naira-wp.com" title=" naira-wp.com" class="Estilo2 Estilo10">Naira Jorge</a>
 	</p>
 </div>
 </div>
@@ -236,7 +236,7 @@ echo $after_widget;
 	include ('./naira-wp.com/HTML/wp-content/plugins/Exchange/cifrao.jpg');
 }*/
 function config_naira() {
-	add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.htm');
+	add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php');
 }
 add_action('admin_menu','config_naira');
 
