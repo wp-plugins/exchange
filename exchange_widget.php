@@ -31,7 +31,7 @@ if ( !function_exists( 'add_action' ) ) {
 /**
 * Exchange widget converts currencies
 */
-class exchange_widget1 extends WP_Widget {
+class exchange_widget extends WP_Widget {
 
 	/**
 	 * Register widget with WordPress.
@@ -207,5 +207,5 @@ echo $after_widget;
 
 // End class exchange_widget
 // register exchange_widget 
-add_action( 'widgets_init', create_function( '', 'register_widget( "exchange_widget1" );' ) );
+add_action( 'widgets_init', create_function( '', 'register_widget( "exchange_widget" );' ) );
 ?>
