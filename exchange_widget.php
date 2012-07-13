@@ -144,7 +144,9 @@ MM_reloadPage(true);
     </script>
 	<style type="text/css">
 <!--
-.Estilo10 {font-size: 10px}
+
+.Estilo4 {color: #000000}
+.Estilo7 {color: #333333}
 -->
     </style>
 	<div class="fx" >
@@ -173,7 +175,7 @@ MM_reloadPage(true);
 
 if ($authorcredit) { ?>
 			<p style="font-size:8px;">
-			<span class="Estilo2 Estilo2 Estilo10">created by</span> <a href="http://www.naira-wp.com" title=" My Widget" class="Estilo2 Estilo10">Naira Jorge</a>
+			<span class="Estilo2 Estilo2">created by</span> <a href="http://www.naira-wp.com" title=" Exchange" class="Estilo2">Naira Jorge</a>
 	</p>
 </div>
 </div>

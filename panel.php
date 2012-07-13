@@ -15,9 +15,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html<br />
 Copyright 2012 Naira  (email : nairawordpress@gmail.com)<br />
 Stable tag: trunk*/
 ?>
-<p><br />
+<p>
   <br />
-== Description ==<br />
+== Description ==
 <br />
 *   This widget will convert from one currency to another; The money converter will be updated each hour and it is not for business proposal;  
 <br />
@@ -25,7 +25,7 @@ Stable tag: trunk*/
 <br />
 * "Tested up to" version 3.4.1  Note that it might work on higher versions, this is just the highest one you've verified.<br />
 <br />
- == Installation ==<br />
+ == Installation ==
  <br />
 1. Download and extract winzip archives;<br />
   2. Upload `Exchange` to the `/wp-content/PLUGINS/` directory;<br />
@@ -34,14 +34,14 @@ Stable tag: trunk*/
               <br />
               
 
-              == FAQ ==<br />
+              == FAQ ==
               <br />
 Which version of PHP does this plugin work with?</p>
 <p>PHP 5.2 is the minimum current requirement for WordPress. <br>
 This plugin requires at least PHP version 5.2.1 due to having to decode JSON responses from the Open Source Exchange Rates API.</p>
 <p>Feel free to contact me if you have any questions about Exchange. Thanks.</p>
 <p>If you value my work and the widget has been helpful to you, consider giving me a cup of coffee, and I will gladly continue working day and night to provide you with better support and new versions. Any kind of contribution would be highly appreciated. Thank you very much! 
-  </p>
+</p>
 </p>
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -52,5 +52,5 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 <p>This widget is primarily developed, maintained, supported and documented by http://naira-wp.com with dedication and passion.</p>
 <p>&nbsp;</p>
-<p>Naira Jorge </p>
-<br>
+<p>Naira Jorge<br>
+</p>
