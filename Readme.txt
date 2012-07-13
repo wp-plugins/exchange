@@ -40,8 +40,11 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Screenshot ==
 
-Screenshot-1.jpg
-Screenshot-2.jpg
+
+'/tags/4.3/screenshot-1.jpg'
+
+
+'/tags/4.3/screenshot-2.jpg'
 
 == Changelog ==
 
