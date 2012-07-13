@@ -2,7 +2,7 @@
 /*
 Plugin Name: Exchange
 Plugin URI: http://www.naira-wp.com
-Version: 1.0
+Version:  1.0
 Short description of the plugin: this plugin executes currency convertion. 
 Author: Naira Jorge
 Author URI: http://www.naira-wp.com
@@ -120,37 +120,24 @@ return json_decode($json);
 		
 ?>
 
-<?php $exchangeRates = getOpenExchangeRates('latest.json'); 
-		//add_filter('the_content','$exchangeRates');?>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-	<link rel="stylesheet" href="./styleconver.css">
-	<script src="./core.js"></script>
-	<script src="./money.js"></script>
-	<script type="text/javascript">
+<link rel="stylesheet" href="../../.././styleconver.css">
+<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+
+<title>Convert Your Money</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script src="../../.././money.js"></script>
+
+<?php $exchangeRates = getOpenExchangeRates('latest.json'); ?>
+<script type="text/javascript">
 fx.rates = <?php echo json_encode($exchangeRates->rates); ?>;
 fx.base = "<?php echo $exchangeRates->base; ?>";
 //fx.rates = {<?php echo json_encode($rates); ?>};
 //fx.base = "<?php echo $base ?>";
-    </script>
-	<script language="JavaScript" type="text/JavaScript">
-<!--
-function MM_reloadPage(init) {  //reloads the window if Nav4 resized
-  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
-    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
-  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
-}
-MM_reloadPage(true);
-//-->
-    </script>
-	<style type="text/css">
-<!--
+</script>
+<script src="../../.././core.js"></script>
 
-.Estilo4 {color: #000000}
-.Estilo7 {color: #333333}
--->
-    </style>
-	<div class="fx" >
-	
+<div class="fx" >
 <div align="center">
 <br />
   
@@ -158,83 +145,26 @@ MM_reloadPage(true);
 
    <?php getCurrencyOptions("USD");  ?>" 
    </select>
- <input class="fx" name="money" type="text"  style="font-size:8px"  maxlength="40"  size="6"  height="4" id="money" value="1"  /> 
-<p >
- 
+   <input class="fx" name="money" type="text"   style="font-size:8px"  maxlength="40"  size="6"  height="4" id="money" value="1"  />
+   
+  </div>
+<p>
   
     <select id="country_to" class="fx" > 
 <?php getCurrencyOptions("GBP");  ?>"
- </select>
- <input class="fx" type="text" name="exchange_total" id="exchange_total"  style="font-size:8px" maxlength="40"  size="6" height="4"/>
-</p>
-<p >
-    <input class="fx" style="font-size:8px" size="7" height="4"  name="exchange" type="text"   id="exchange" value="Exchange" align="center" />
-</p>
 
+    </select>
+	<input class="fx" type="text" name="exchange_total" id="exchange_total"  style="font-size:8px" maxlength="40"  size="6" height="4"/>
+  </p>
+<p>
+  
+  <input class="fx" style="font-size:9px" size="6" height="4"  name="exchange" type="text"   id="exchange" value="Exchange" align="center" />
+</p>
+</div>
 <?php 
 
-if ($authorcredit) { ?>
-			<p style="font-size:8px;">
-			<span class="Estilo2 Estilo2">created by</span> <a href="http://www.naira-wp.com" title=" Exchange" class="Estilo2">Naira Jorge</a>
-	</p>
-</div>
-</div>
-<?php }
-
-echo $after_widget;
-		}
-		// Update Settings //
- function update($new_instance, $old_instance) {
-		$instance = array();
-			$instance['title'] = strip_tags($new_instance['title']);
-			
-			$instance['author_credit'] = $new_instance['author_credit'];
-			//$instance['no_results'] = $new_instance['no_results'];
-			return $instance;
-		}
-		
-	/*public function update( $new_instance, $old_instance ) {
-		$instance = array();
-		$instance['title'] = strip_tags( $new_instance['title'] );
-
-		return $instance;
-	}*/
-// Widget Control Panel //
-	/**
-	 * Back-end widget form.
-	 *
-	 * @see WP_Widget::form()
-	 *
-	 * @param array $instance Previously saved values from database.
-	 */
-	 //function form($instance) {
-
-		//$defaults = array( 'title' => 'Upcoming Posts', 'soup_number' => 3, 'post_type' => 'future', 'show_newsletter' => false, newsletter_url => '', author_credit => 'on' );
-		//$instance = wp_parse_args( (array) $instance, $defaults ); 
-
-	 function form( $instance ) {
-		if ( isset( $instance[ 'title' ] ) ) {
-			$title = $instance[ 'title' ];
-		}
-		else {
-			$title = __( 'New title', 'text_domain' );
-		}
-		
-		?>
-	<p>
-		<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label> 
-        <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $title ); ?>" />
-</p>
-<p>
-			<label for="<?php echo $this->get_field_id('author_credit'); ?>"><?php _e('Give credit to plugins author?'); ?></label>
-			<input type="checkbox" class="checkbox" <?php checked( $instance['author_credit'], 'on' ); ?> id="<?php echo $this->get_field_id('author_credit'); ?>" name="<?php echo $this->get_field_name('author_credit'); ?>" />
-	</p>
-        <?php 
-		}
- 
 }
-
-
+}
 // End class soup_widget
 // register exchange_Widget widget
 add_action( 'widgets_init', create_function( '', 'register_widget( "exchange_widget" );' ) );
