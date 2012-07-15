@@ -41,7 +41,9 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 == Screenshot ==
 
 
-THE SCREENSHOTS 1 AND 2;
+1. This screen shot description corresponds to screenshot-1.jpg. Note that the screenshot is taken from
+the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1.jpg` 
+2. This second screen shot corresponds to screenshot-2.jpg.
 
 
 == Changelog ==
