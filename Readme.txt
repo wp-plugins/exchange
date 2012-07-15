@@ -41,10 +41,8 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 == Screenshot ==
 
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, /tags/4.3/screenshot-1.png (or jpg, jpeg, gif)
-2. This is the second screen shot
-
+1. This shows the layout of the Exchange;
+2. It shows the Exchange API;
 
 == Changelog ==
 
