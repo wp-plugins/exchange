@@ -40,9 +40,10 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Screenshot ==
 
-
-1. This shows the layout of the Exchange;
-2. It shows the Exchange API;
+1. screenshot-1.jpg
+1. This shows the layout of the Exchange 
+2. screenshot-2.jpg
+2. It shows the Exchange API 
 
 == Changelog ==
 
