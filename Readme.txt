@@ -1,4 +1,4 @@
-=== Exchange === 
+AA=== Exchange === 
 Contributors: Naira Jorge
 Donate link: http://naira-wp.com/wp-content/plugins/Exchange/panel.php 
 Tags: money, currency, currencies, converter, cotation, exchange;
@@ -38,7 +38,7 @@ Which version of PHP does this plugin work with?
 PHP 5.2 is the minimum current requirement for WordPress. 
 This plugin requires at least PHP version 5.2.1 due to having to decode JSON responses from the Open Source Exchange Rates API.
 
-== Screenshot ==
+== Screenshots ==
 
 1. screenshot-1.jpg
 1. This shows the layout of the Exchange 
