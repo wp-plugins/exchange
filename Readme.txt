@@ -1,6 +1,7 @@
 === Exchange === 
+
 Contributors: Naira Jorge
-Donate link: http://naira-wp.com/wp-content/plugins/Exchange/panel.php 
+Donate link: http://www.naira-wp.com/donation/ 
 Tags: money, currency, currencies, converter, cotation, exchange;
 Plugin URI: http://www.naira-wp.com
 Requires at least: 2.0.2 
@@ -17,7 +18,6 @@ Here is a short description.  This widget executes currency convertion.
 == Description ==
 
 *   This widget will convert from one currency to another; The money converter will be updated each hour and it is not for business proposal;
-	
 *   Once this widget is activated you will need to drag and drop it from the widget's field to a sidebar of your preference;
 *   "Tested up to" version 3.4.1  Note that it might work on higher versions, this is just the highest one you've verified.
 
@@ -40,21 +40,21 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Screenshots ==
 
-1. screenshot-1.jpg
-1. This shows the layout of the Exchange 
-2. screenshot-2.jpg
-2. It shows the Exchange API 
+screenshot-1.jpg
+
+screenshot-2.jpg
+
 
 == Changelog ==
 
-1.0
+1.0.0
 
-    Initial release
-
+Some layout improvement and functioning;
 
 == Upgrade Notice ==
 
-= 1.0 =
+
+
 
 == Arbitrary section ==
 
