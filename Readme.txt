@@ -49,7 +49,7 @@ screenshot-2.jpg
 
 1.0.0
 
-Some layout improvement and functioning;
+Initial release;
 
 == Upgrade Notice ==
 
