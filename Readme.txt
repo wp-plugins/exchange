@@ -40,7 +40,8 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Screenshots ==
 
-screenshot-1.jpg
+1. The static layout;
+2. The Exchange API;
 
 screenshot-2.jpg
 
