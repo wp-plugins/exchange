@@ -2,7 +2,7 @@
 /*
 Plugin Name: Exchange
 Plugin URI: http://www.naira-wp.com
-Version:  1.0
+Version:  1.0.1
 Short description of the plugin: this plugin executes currency convertion. 
 Author: Naira Jorge
 Author URI: http://www.naira-wp.com
@@ -203,9 +203,17 @@ echo $after_widget;
 		}
  
 }
+function panel_Exchange() {
+    include ('panel.php');
+}
 
+function config_Exchange() {
+    add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/cifrao.jpg'));
+}
 
 // End class exchange_widget
 // register exchange_widget 
+add_action('admin_menu','config_Exchange', 'panel_Exchange' );
+
 add_action( 'widgets_init', create_function( '', 'register_widget( "exchange_widget" );' ) );
 ?>

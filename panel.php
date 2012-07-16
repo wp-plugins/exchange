@@ -19,7 +19,7 @@ Stable tag: trunk*/
   <br />
 == Description ==
 <br />
-*   This widget will convert from one currency to another; The money converter will be updated each hour and it is not for business proposal;  
+*   This widget will convert from one currency to another; The money converter will be updated each hour;   
 <br />
 *   Once this widget is activated you will need to drag and drop it from the widget's field to a sidebar of your preference;
 <br />
@@ -31,7 +31,7 @@ Stable tag: trunk*/
   2. Upload `Exchange` to the `/wp-content/PLUGINS/` directory;<br />
               3. Activate the plugin through the 'Plugins' menu in WordPress;<br />
               4. Go to Appearance/Widgets area and drag-and-drop the widget in the sidebar of your preference;<br />
-              <br />
+              5. Settings (choose title and author's credit or not);<br /><br />
               
 
               == FAQ ==

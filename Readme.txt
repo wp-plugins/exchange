@@ -17,7 +17,7 @@ Here is a short description.  This widget executes currency convertion.
 
 == Description ==
 
-*   This widget will convert from one currency to another; The money converter will be updated each hour and it is not for business proposal;
+*   This widget will convert from one currency to another; The money converter will be updated each hour;
 *   Once this widget is activated you will need to drag and drop it from the widget's field to a sidebar of your preference;
 *   "Tested up to" version 3.4.1  Note that it might work on higher versions, this is just the highest one you've verified.
 
@@ -29,7 +29,7 @@ Here is a short description.  This widget executes currency convertion.
 2. Upload `Exchange` to the `/wp-content/plugins/` directory;
 3. Activate the plugin through the 'Plugins' menu in WordPress;
 4. Go to Appearance/Widgets area and drag-and-drop the widget in the sidebar of your preference;
-
+5. Settings (choose title and author's credit or not);
 
 == Frequent Asked Questions ==
 
@@ -40,21 +40,21 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Screenshots ==
 
-1. The static layout;
+1. The basic layout;
 2. The Exchange API;
 
-screenshot-2.jpg
 
 
 == Changelog ==
 
 1.0.0
+1.0.1
 
-Initial release;
+
 
 == Upgrade Notice ==
 
-
+Second version comes to improve and complement version's 1;
 
 
 == Arbitrary section ==
