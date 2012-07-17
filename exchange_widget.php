@@ -123,9 +123,9 @@ return json_decode($json);
 //add_filter('the_content','$exchangeRates');?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="../../.././styleconver.css">
-<script src="../../.././core.js"></script>
-<script src="../../.././money.js"></script>
+<link rel="stylesheet" href="../../../../.././styleconver.css">
+<script src="../../../../.././core.js"></script>
+<script src="../../../../.././money.js"></script>
 <title>Exchange</title>
 <script type="text/javascript">
 fx.rates = <?php echo json_encode($exchangeRates->rates); ?>;
@@ -204,7 +204,7 @@ echo $after_widget;
  
 }
 function panel_Exchange() {
-    include ('panel.php');
+    include ('../../../Exchange/panel.php');
 }
 
 function config_Exchange() {
