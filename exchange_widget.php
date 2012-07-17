@@ -204,7 +204,7 @@ echo $after_widget;
  
 }
 function panel_Exchange() {
-    include ('../../../Exchange/panel.php');
+    include ('panel.php');
 }
 
 function config_Exchange() {
