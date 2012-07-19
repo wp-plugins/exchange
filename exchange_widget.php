@@ -2,7 +2,7 @@
 /*
 Plugin Name: Exchange
 Plugin URI: http://www.naira-wp.com
-Version:  1.0.1
+Version:  1.0.3
 Short description of the plugin: this plugin executes currency convertion. 
 Author: Naira Jorge
 Author URI: http://www.naira-wp.com
@@ -123,9 +123,9 @@ return json_decode($json);
 //add_filter('the_content','$exchangeRates');?>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="../../../../.././styleconver.css">
-<script src="../../../../.././core.js"></script>
-<script src="../../../../.././money.js"></script>
+<link rel="stylesheet" href="../../.././styleconver.css">
+<script src="../../.././core.js"></script>
+<script src="../../.././money.js"></script>
 <title>Exchange</title>
 <script type="text/javascript">
 fx.rates = <?php echo json_encode($exchangeRates->rates); ?>;
@@ -208,12 +208,13 @@ function panel_Exchange() {
 }
 
 function config_Exchange() {
-    add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/cifrao.jpg'));
+    add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/cifrao.gif'));
 }
 
+
+add_action('admin_menu','config_Exchange', 'panel_Exchange' );
 // End class exchange_widget
 // register exchange_widget 
-add_action('admin_menu','config_Exchange', 'panel_Exchange' );
 
 add_action( 'widgets_init', create_function( '', 'register_widget( "exchange_widget" );' ) );
 ?>
