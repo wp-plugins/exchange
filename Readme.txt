@@ -47,20 +47,12 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Changelog ==
 
-= 1.0.0 =
-
-Initial release
-
-= 1.0.2 =
-
-= 1.0.3 =
-
-
+= 1.0.4 =
 
 
 == Upgrade Notice ==
 
-The third version changes the admin bottom;
+Manage option page; 
 
 == Arbitrary section ==
 
