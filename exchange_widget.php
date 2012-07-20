@@ -208,7 +208,7 @@ function panel_Exchange() {
 }
 
 function config_Exchange() {
-    add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/cifrao.gif'));
+    add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/gadget16.gif'));
 }
 
 
