@@ -208,8 +208,15 @@ function panel_Exchange() {
 }
 
 function config_Exchange() {
-    add_menu_page('Exchange Panel', 'Exchange', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/gadget16.gif'));
+    add_menu_page('Exchange Panel', 'Exchange', 'add_users', 'administrator', 'Exchange/panel.php', 'panel_Exchange', plugins_url('Exchange/images/cifrao.gif'), 6);
 }
+
+//<?php add_menu_page( $page_title, $menu_title, $capability, $menu_slug, $function, $icon_url, $position );  
+
+
+/*function register_custom_menu_page() {
+   add_menu_page('custom menu title', 'custom menu', 'add_users', 'myplugin/myplugin-index.php', '',   plugins_url('myplugin/images/icon.png'), 6);
+}*/
 
 
 add_action('admin_menu','config_Exchange', 'panel_Exchange' );
