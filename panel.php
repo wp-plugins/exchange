@@ -23,7 +23,7 @@ Stable tag: trunk*/
 <br />
 NOTA BENE: 
 
-<em>"The users who wish to use this plugin will receive a monthly invoice with an amount of $ 6.00 fee (five dollars monthly fee) from paypal; 
+<em>"The users who wish to use this plugin will receive a monthly invoice with an amount of $ 6.00 fee (six dollars monthly fee) from paypal; 
 All you need to do is to sign up at http://naira-wp.com/."</em>
 <br />
 *   Once this widget is activated you will need to drag and drop it from the widget's field to a sidebar of your preference;
