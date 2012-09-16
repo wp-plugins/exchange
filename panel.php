@@ -19,12 +19,18 @@ Stable tag: trunk*/
   <br />
 == Description ==
 <br />
-*   This widget will convert from one currency to another; The money converter will be updated each hour;   
+*   This widget will convert in between 158 currencies, from one to another; The money converter will be updated each half an hour and it is no longer free of charge, from October 1st, 2012, according to the API Open Exchange Rates; 
+<br />
+NOTA BENE: 
+
+<em>"The users who wish to use this plugin will receive a monthly invoice with an amount of $ 6.00 fee (five dollars monthly fee) from paypal; 
+All you need to do is to sign up at http://naira-wp.com/."</em>
 <br />
 *   Once this widget is activated you will need to drag and drop it from the widget's field to a sidebar of your preference;
 <br />
 * "Tested up to" version 3.4.1  Note that it might work on higher versions, this is just the highest one you've verified.<br />
 <br />
+
  == Installation ==
  <br />
 1. Download and extract winzip archives;<br />
