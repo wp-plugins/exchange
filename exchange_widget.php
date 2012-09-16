@@ -2,7 +2,7 @@
 /*
 Plugin Name: Exchange
 Plugin URI: http://www.naira-wp.com
-Version:  1.0.6
+Version:  1.0.7
 Short description of the plugin: this plugin executes currency convertion. 
 Author: Naira Jorge
 Author URI: http://www.naira-wp.com
