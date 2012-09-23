@@ -47,7 +47,7 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 
 == Changelog ==
 
-= 1.0.7 =
+= 1.0.8 =
 
 
 == Upgrade Notice ==
