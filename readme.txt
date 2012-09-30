@@ -11,7 +11,7 @@ Author URI: http://www.naira-wp.com
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Copyright 2012 Naira  (email : nairawordpress@gmail.com)
-Stable tag: trunk
+Stable tag: 1.0.8
 
 Here is a short description.  This widget executes currency convertion. 
 
