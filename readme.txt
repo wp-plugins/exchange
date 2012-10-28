@@ -13,13 +13,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Copyright 2012 Naira  (email : nairawordpress@gmail.com)
 Stable tag: 1.0.8
 
-Here is a short description.  This widget executes currency convertion. 
+Here is a short description.  THIS WIDGET DOES NOT FUNCTION ANY MORE. It needs to be paid directly to the Exchange API.
 
-== Description ==
-*   This widget will convert in between 160 currencies, from one to another; The money converter will be updated each half an hour and it is no longer free of charge, from October 1st, 2012, according to the API Open Exchange Rates; 
+= Description ==
 
-*   Once this widget is activated you will need to drag and drop it from the widget's field to a sidebar of your preference;
-*   "Tested up to" version 3.4.1  Note that it might work on higher versions, this is just the highest one you've verified.
+
 
 
 
@@ -48,6 +46,8 @@ This plugin requires at least PHP version 5.2.1 due to having to decode JSON res
 == Changelog ==
 
 = 1.0.8 =
+
+
 
 
 == Upgrade Notice ==
